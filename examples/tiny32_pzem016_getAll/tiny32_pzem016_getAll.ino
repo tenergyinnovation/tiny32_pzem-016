@@ -4,7 +4,9 @@
  * Hardware     :     tiny32         
  * Author       :     Tenergy Innovation Co., Ltd.
  * Date         :     14/04/2022
- * Revision     :     1.0
+ * Revision     :     1.1
+ * Rev1.0       :     Original
+ * Rev1.1       :     Add Relay On, Show Library version  
  * website      :     http://www.tenergyinnovation.co.th
  * Email        :     admin@innovation.co.th
  * TEL          :     +66 82-380-3299
@@ -24,7 +26,10 @@ void setup()
 {
   Serial.begin(115200);
   Serial.printf("\r\n**** tiny32_pzem016_getAll ****\r\n");
+  mcu.Relay(1);
+  vTaskDelay(3000);
   mcu.buzzer_beep(2); //buzzer 2 beeps
+  mcu.library_version();
 }
 
 void loop()
