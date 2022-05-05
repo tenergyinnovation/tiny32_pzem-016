@@ -1,5 +1,5 @@
 /***********************************************************************
- * Project      :     Example_pzem016_getParam
+ * Project      :     tiny32_pzem016_getParam
  * Description  :     Get each parameter from PZEM-016 Modbus RTU power meter module
  * Hardware     :     tiny32         
  * Author       :     Tenergy Innovation Co., Ltd.
@@ -24,7 +24,7 @@ uint16_t energy;
 void setup()
 {
   Serial.begin(115200);
-  Serial.printf("\r\n**** Example_pzem016_getParam ****\r\n");
+  Serial.printf("\r\n**** tiny32_pzem016_getParam ****\r\n");
   mcu.Relay(1);
   vTaskDelay(3000);
   mcu.buzzer_beep(2); //buzzer 2 beeps
