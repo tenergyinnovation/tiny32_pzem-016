@@ -10,7 +10,7 @@
  * Rev1.3       :     Add tiny32_v3
  * website      :     http://www.tenergyinnovation.co.th
  * Email        :     admin@innovation.co.th
- * TEL          :     +66 82-380-3299
+ * TEL          :     +66 82-308-3299
  ***********************************************************************/
 #include <Arduino.h>
 //#include <tiny32.h> //for tiny32 original board
