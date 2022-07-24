@@ -33,7 +33,8 @@ void setup()
 void loop()
 {
 
-  int8_t _id;
+  Serial.printf("Info: Old ID: %d\r\n",id);
+  Serial.printf("Info: New ID: %d\r\n",new_id);
   
   _id = mcu.PZEM_016_SearchAddress();
 
