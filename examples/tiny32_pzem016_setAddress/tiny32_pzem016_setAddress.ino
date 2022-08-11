@@ -18,7 +18,7 @@
 #include <tiny32_v3.h> //for tiny32 v3
 
 
-tiny32 mcu; //define object
+tiny32_v3 mcu; //define object
 
 uint8_t id = 2; //current address of PZEM-016, You can change here if it differance
 uint8_t new_id = 1; //new address of PZEM-016, You can change here if it differance
