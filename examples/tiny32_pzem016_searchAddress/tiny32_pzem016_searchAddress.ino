@@ -17,7 +17,7 @@
 #include <tiny32_v3.h> //for tiny32 v3
 
 
-tiny32 mcu; //define object
+tiny32_v3 mcu; //define object
 
 void setup()
 {
