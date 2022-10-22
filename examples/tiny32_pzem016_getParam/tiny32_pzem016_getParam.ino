@@ -22,7 +22,7 @@ tiny32_v3 mcu; //define object
 uint8_t id = 1; //Address if PZEM-016, You can change here if it differance
 
 float volt, amp, power, freq, pf;
-uint16_t energy;
+uint32_t energy;
 
 
 void setup()
